@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: rgba(0, 0, 0, 0.699) ;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 7px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:  rgba(0, 0, 0, 0.699) ;
+}
+
+header .logo{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+header .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+header ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+header ul li a:hover{
+    background: #000;
+    box-shadow: 0 0 10px #FEB220;
+}
+
+.left{
+    display: flex;
+}
+
+.header-button{
+    background: #FEB220;
+    color: #000;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-left: 15px;
+    font-size: 15px;
+    width: 120px;
+    height: 40px;
+    border: 15px;
+}
+.header-button:hover{
+    background: #000;
+    color: #FEB220;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-left: 15px;
+    font-size: 15px;
+    width: 120px;
+    height: 40px;
+    border: 15px;
+}
+
+/* Banner */
+
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .bg{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .bg .content{
+    width: 50%;
+    height: 100%;
+}
+.banner .bg .content h2{
+    font-size: 3em;
+    color: #000;
+    letter-spacing: 1px;
+}
+.banner .bg .content p{
+    font-size: 1em;
+    color: #FEB220;
+    letter-spacing: 1px;
+}
+
+.banner .bg .content a{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 1px solid #FEB220;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #000;
+    letter-spacing: 1px;
+}
+.banner .bg .content a:hover{
+    background: #000;
+    color: #FEB220;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 15px;
+    border: 15px;
+}
+img{
+    width: 50%;
+}
+
+.people {
+    display: flex;
+}
+.people img {
+    width: 201px;
+    height: 30px;
+}
+.people h3{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 200;
+    padding: 0px 10px;
+}
+
+/* Tokenomics */
+.tokenomics{
+    position: relative;
+    width: 100%;
+    min-height: 75vh;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.tokenomics .images{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.tokenomics .images img{
+    width: 250px;
+    padding: 20px;
+}
+
+.contentBox{
+    margin: -14rem;
+    display: flex;
+    justify-content: center;
+}
+.content {
+
+}
+.content h2{
+    color: #FEB220;
+}
+.content h4{
+    margin-left: 10rem;
+    color: #fff;
+    font-weight: 200;
+    padding:0px 70px;
+}
